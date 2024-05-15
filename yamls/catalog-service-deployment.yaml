@@ -6,7 +6,7 @@ metadata:
     move2kube.konveyor.io/service: catalog-service
   name: catalog-service
 spec:
-  replicas: 2
+  replicas: 1
   selector:
     matchLabels:
       move2kube.konveyor.io/service: catalog-service
